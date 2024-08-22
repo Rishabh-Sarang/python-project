@@ -157,7 +157,7 @@ class Editor():
             "Right": lambda image: image.transpose(Image.ROTATE_270),
             "Mirror": lambda image: image.transpose(Image.FLIP_LEFT_RIGHT),
         }
-        for
+        
         if filter_name == "Original":
             self.image = self.Original.copy()
         else:
